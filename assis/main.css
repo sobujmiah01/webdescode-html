@@ -128,10 +128,22 @@ header .Header_main_menu .search_and_rs .icon_menu {
   background-color: white;
   padding: 4px;
   border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.main_article_post .web_post_wrapper .web_post_inner .post_wrapper figure {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 .main_article_post .web_post_wrapper .web_post_inner .post_wrapper figure img {
   width: 100%;
+  height: 100%;
   border-radius: 2%;
+}
+.main_article_post .web_post_wrapper .web_post_inner .post_wrapper .post_meta {
+  border-bottom: 1px solid #ddd;
+  margin-top: 4px;
 }
 .main_article_post aside {
   background-color: #f3f1f1;
